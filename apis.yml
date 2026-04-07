@@ -10,8 +10,7 @@ type: Index
 position: Consumer
 access: 3rd-Party
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
-tags:
-  - API
+tags: []
 created: '2025-02-06'
 modified: '2025-02-06'
 url: >-
@@ -27,8 +26,7 @@ apis:
       for remote control.For communication with the REST API you will need an API
       Keys for the Customer ID you wish to access.
     humanURL: ' https://www.raceresult.com/en-us/support/kb?id=22003-REST-API-Interface'
-    tags:
-      - API
+    tags: []
     properties:
       - type: Documentation
         url: ' https://www.raceresult.com/en-us/support/kb?id=22003-REST-API-Interface'
