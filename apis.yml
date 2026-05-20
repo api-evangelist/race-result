@@ -21,6 +21,11 @@ modified: '2026-04-28'
 url: >-
   https://raw.githubusercontent.com/api-evangelist/race-result/refs/heads/main/apis.yml
 specificationVersion: '0.19'
+common:
+  - type: GitHubOrganization
+    url: https://github.com/raceresult
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/race-result-ag
 apis:
   - aid: race-result:race-result
     name: RACE RESULT
