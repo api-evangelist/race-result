@@ -1,10 +1,8 @@
 aid: race-result
 name: RACE RESULT
-description: >-
-  The RACE RESULT REST interface allows retrieval of data from systems uploading
-  to RACE RESULT servers, including RACE RESULT decoders that upload via TCP
-  and Track Boxes, and supports remote control commands sent to decoders.
-  Communication with the REST API requires API keys for the Customer ID being
+description: The RACE RESULT REST interface allows retrieval of data from systems uploading to RACE RESULT
+  servers, including RACE RESULT decoders that upload via TCP and Track Boxes, and supports remote control
+  commands sent to decoders. Communication with the REST API requires API keys for the Customer ID being
   accessed.
 type: Index
 deliveryModel:
@@ -34,37 +32,37 @@ position: Consuming
 access: 3rd-Party
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/race-result.png
 tags:
-  - Race Timing
-  - Decoder
-  - Sports
-  - Hardware
-  - Race Results
+- Race Timing
+- Decoder
+- Sports
+- Hardware
+- Race Results
 created: '2025-02-06'
-modified: '2026-04-28'
-url: >-
-  https://raw.githubusercontent.com/api-evangelist/race-result/refs/heads/main/apis.yml
+modified: '2026-09-16'
+url: https://raw.githubusercontent.com/api-evangelist/race-result/refs/heads/main/apis.yml
 specificationVersion: '0.23'
 common:
-  - type: DomainSecurity
-    url: security/race-result-domain-security.yml
-  - type: GitHubOrganization
-    url: https://github.com/raceresult
-  - type: LinkedIn
-    url: https://www.linkedin.com/company/race-result-ag
+- type: Website
+  url: https://raceresult.com
+- type: DomainSecurity
+  url: security/race-result-domain-security.yml
+- type: GitHubOrganization
+  url: https://github.com/raceresult
+- type: LinkedIn
+  url: https://www.linkedin.com/company/race-result-ag
 apis:
-  - aid: race-result:race-result
-    name: RACE RESULT
-    description: >-
-      REST API for retrieving uploaded timing data and sending remote control
-      commands to RACE RESULT decoders and Track Boxes.
-    humanURL: https://www.raceresult.com/en-us/support/kb?id=22003-REST-API-Interface
-    tags:
-      - Race Timing
-      - Decoder
-      - Race Results
-    properties:
-      - type: Documentation
-        url: https://www.raceresult.com/en-us/support/kb?id=22003-REST-API-Interface
+- aid: race-result:race-result
+  name: RACE RESULT
+  description: REST API for retrieving uploaded timing data and sending remote control commands to RACE
+    RESULT decoders and Track Boxes.
+  humanURL: https://www.raceresult.com/en-us/support/kb?id=22003-REST-API-Interface
+  tags:
+  - Race Timing
+  - Decoder
+  - Race Results
+  properties:
+  - type: Documentation
+    url: https://www.raceresult.com/en-us/support/kb?id=22003-REST-API-Interface
 maintainers:
-  - FN: Kin Lane
-    email: kin@apievangelist.com
+- FN: Kin Lane
+  email: kin@apievangelist.com
