@@ -38,10 +38,12 @@ tags:
 - Hardware
 - Race Results
 created: '2025-02-06'
-modified: '2026-09-16'
+modified: '2026-10-06'
 url: https://raw.githubusercontent.com/api-evangelist/race-result/refs/heads/main/apis.yml
 specificationVersion: '0.23'
 common:
+- url: https://www.raceresult.com/en-us/company/news
+  type: Blog
 - type: Website
   url: https://raceresult.com
 - type: DomainSecurity
