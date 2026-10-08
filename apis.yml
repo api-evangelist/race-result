@@ -42,6 +42,12 @@ modified: '2026-10-06'
 url: https://raw.githubusercontent.com/api-evangelist/race-result/refs/heads/main/apis.yml
 specificationVersion: '0.23'
 common:
+- type: Plans
+  url: plans/race-result-plans-pricing.yml
+- type: RateLimits
+  url: rate-limits/race-result-rate-limits.yml
+- type: FinOps
+  url: finops/race-result-finops.yml
 - url: https://www.raceresult.com/en-us/company/news
   type: Blog
 - type: Website
